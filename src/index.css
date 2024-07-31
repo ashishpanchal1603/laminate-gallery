@@ -4,5 +4,7 @@
 
 
 .background-image{
-  background-image: url("./assets/bgimage.png");
+  background-image: url("./assets/sofa1.jpg");
+  background-repeat: no-repeat;
+  object-fit: cover;
 }

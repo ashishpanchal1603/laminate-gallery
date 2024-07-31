@@ -24,8 +24,10 @@ function Introduction() {
 
   return (
     <>
+    <div className='flex flex-col h-[100vh]'>
     <h2 className="text-3xl font-bold mb-4">Welcome to Laminate</h2>
-    <h1> We specialize in <span className="multiple-text text-green-400" ref={typedElement}></span></h1>
+    <h1 className='text-4xl font-bold'> We specialize in <span className="multiple-text text-green-400" ref={typedElement}></span></h1>
+    </div>
     </>
   )
 }

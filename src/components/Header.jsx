@@ -1,11 +1,9 @@
-import React from 'react'
-
 function Header() {
   return (
     <>
-    <nav className='p-3 bg-purple-500 text-white font-semibold' >
-      <h3 >Bharat Panchal</h3>
-    </nav>
+    <nav className='p-3  text-back font-semibold' >
+      <h3 className='text-3xl font-bold'>Bharat Panchal</h3>
+    </nav> 
     </>
   )
 }

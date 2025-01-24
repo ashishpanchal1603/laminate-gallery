@@ -1,19 +1,17 @@
 import React  from 'react'
-import Header from './components/Header'
-import Footer from './components/Footer'
-import Introduction from './components/Introduction'
-import ContactForm from './components/ContactForm'
+import {  Routes, Route } from "react-router";
+import ViewPdf from './components/viewPdf';
+import Home from './components/Home';
+
 
 function App() {
 
   return (
     <>
-    <div className="background-image bg-fixed h-[100vh]">
-   <Header/>
-   <Introduction />
-    </div>
-    <ContactForm/>
-   <Footer/>
+    <Routes>
+    <Route path="/" element={<Home/>}/>
+   <Route path="/view-pdf" element={<ViewPdf />} />
+    </Routes>
     </>
   )
 }

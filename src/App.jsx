@@ -1,11 +1,9 @@
-import React  from 'react'
 import {  Routes, Route } from "react-router";
 import ViewPdf from './components/viewPdf';
 import Home from './components/Home';
 
 
 function App() {
-
   return (
     <>
     <Routes>
